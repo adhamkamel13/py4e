@@ -6,7 +6,7 @@ except:
     quit()
 if sc >= 0.0 :
     if sc <= 1.0:
-        if sc >= 0.9
+        if sc >= 0.9 :
             print('A')
         elif sc >= 0.8:
             print('B')
@@ -18,3 +18,5 @@ if sc >= 0.0 :
             print('F')
     else: 
         print('error please enter a value within the range')
+else: 
+    print('error please enter a value within the range')
