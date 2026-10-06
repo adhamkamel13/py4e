@@ -9,13 +9,9 @@ while True :
     except: 
         print('Invalid input')
         continue
-    if largest is None :
+    if largest is None or fval > largest :
         largest = fval
-    elif fval > largest :
-        largest = fval
-    if smallest is None :
-        smallest = fval
-    elif fval < smallest :
+    if smallest is None or fval < smallest :
         smallest = fval
 print('Maximum is' , int(largest))
 print('Minimum is' , int(smallest))
