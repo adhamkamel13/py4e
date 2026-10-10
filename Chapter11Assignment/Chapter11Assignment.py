@@ -7,7 +7,7 @@ except:
     quit()
 readfile = fhand.read()
 sum = 0
-temp = re.findall('[0-9]+', readfile)
+temp = re.findall('[0-9]+', readfile) # make a list of one or more digit that's in the file using (re library)
 for i in temp:
     sum = sum + float(i)
 print(sum)
